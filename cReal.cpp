@@ -96,7 +96,8 @@ Codification* cReal::CrossTwoPoint::crossover(Problem* prob, Codification* A1, C
     } else {
         uUtil::arraycopy(ind2->x, j, child->x, j, child->length - j);
     }
-    delete[] points;
+//    for (int i = 0; i < 2; i++)
+//        delete points[i];
     return child;
 }
 Codification* cReal::CrossOX::crossover(Problem* prob, Codification* A1, Codification* A2) throw (exception) {
