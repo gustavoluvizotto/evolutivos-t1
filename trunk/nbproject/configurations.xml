@@ -1,134 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="89">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f3"
+                   displayName="Distributions"
+                   projectFiles="true"
+                   kind="ROOT">
+      <itemPath>GaussianDistribution.cpp</itemPath>
+      <itemPath>GaussianDistribution.h</itemPath>
+      <itemPath>UniformDistribution.cpp</itemPath>
+      <itemPath>UniformDistribution.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f2"
+                   displayName="GeneticAlgorithm"
+                   projectFiles="true"
+                   kind="ROOT">
+      <itemPath>GeneticAlgorithm.cpp</itemPath>
+      <itemPath>GeneticAlgorithm.h</itemPath>
+    </logicalFolder>
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>Best.h</itemPath>
-      <itemPath>BestPareto.h</itemPath>
-      <itemPath>BestSol.h</itemPath>
-      <itemPath>BoundDbl.h</itemPath>
-      <itemPath>BoundInt.h</itemPath>
-      <itemPath>Codification.h</itemPath>
-      <itemPath>ComDefines.h</itemPath>
-      <itemPath>Fact.h</itemPath>
-      <itemPath>Factory.h</itemPath>
-      <itemPath>GPCodification.h</itemPath>
-      <itemPath>GPObjective.h</itemPath>
-      <itemPath>GPOperator.h</itemPath>
-      <itemPath>GPProblem.h</itemPath>
-      <itemPath>GRPCodification.h</itemPath>
-      <itemPath>GRPObjective.h</itemPath>
-      <itemPath>GRPOperator.h</itemPath>
-      <itemPath>GRPProblem.h</itemPath>
-      <itemPath>GaussianDistribution.h</itemPath>
-      <itemPath>GeneticAlgorithm.h</itemPath>
-      <itemPath>H6Codification.h</itemPath>
-      <itemPath>H6Objective.h</itemPath>
-      <itemPath>H6Operator.h</itemPath>
-      <itemPath>H6Problem.h</itemPath>
-      <itemPath>HSKCodification.h</itemPath>
-      <itemPath>HSKObjective.h</itemPath>
-      <itemPath>HSKOperator.h</itemPath>
-      <itemPath>HSKProblem.h</itemPath>
-      <itemPath>HVCodification.h</itemPath>
-      <itemPath>HVObjective.h</itemPath>
-      <itemPath>HVOperator.h</itemPath>
-      <itemPath>HVProblem.h</itemPath>
-      <itemPath>Instance.h</itemPath>
-      <itemPath>KLCodification.h</itemPath>
-      <itemPath>KLObjective.h</itemPath>
-      <itemPath>KLOperator.h</itemPath>
-      <itemPath>KLProblem.h</itemPath>
-      <itemPath>LM2Codification.h</itemPath>
-      <itemPath>LM2Objective.h</itemPath>
-      <itemPath>LM2Operator.h</itemPath>
-      <itemPath>LM2Problem.h</itemPath>
-      <itemPath>LinkerNodes.h</itemPath>
-      <itemPath>LinkerParameterAbstract.h</itemPath>
-      <itemPath>LinkerParameters.h</itemPath>
-      <itemPath>LinkerResults.h</itemPath>
-      <itemPath>LinkerResultsImpl.h</itemPath>
-      <itemPath>LinkerValidations.h</itemPath>
-      <itemPath>LocalMove.h</itemPath>
-      <itemPath>MCPCodification.h</itemPath>
-      <itemPath>MCPObjective.h</itemPath>
-      <itemPath>MCPOperator.h</itemPath>
-      <itemPath>MCPProblem.h</itemPath>
-      <itemPath>MRCodification.h</itemPath>
-      <itemPath>MRObjective.h</itemPath>
-      <itemPath>MROperator.h</itemPath>
-      <itemPath>MRProblem.h</itemPath>
-      <itemPath>MetaHeuristic.h</itemPath>
-      <itemPath>Model.h</itemPath>
-      <itemPath>MultiObjective.h</itemPath>
-      <itemPath>MultiProblem.h</itemPath>
-      <itemPath>Node.h</itemPath>
-      <itemPath>Node2.h</itemPath>
-      <itemPath>NodeEnd.h</itemPath>
-      <itemPath>NodeFactory.h</itemPath>
-      <itemPath>NodeParameter.h</itemPath>
-      <itemPath>NodeSingle.h</itemPath>
-      <itemPath>Objective.h</itemPath>
-      <itemPath>Operator.h</itemPath>
-      <itemPath>Problem.h</itemPath>
-      <itemPath>RgxRule.h</itemPath>
-      <itemPath>Run.h</itemPath>
-      <itemPath>Runner.h</itemPath>
-      <itemPath>SINCodification.h</itemPath>
-      <itemPath>SINObjective.h</itemPath>
-      <itemPath>SINOperator.h</itemPath>
-      <itemPath>SINProblem.h</itemPath>
-      <itemPath>SINU20Codification.h</itemPath>
-      <itemPath>SINU20Objective.h</itemPath>
-      <itemPath>SINU20Operator.h</itemPath>
-      <itemPath>SINU20Problem.h</itemPath>
-      <itemPath>SavePof.h</itemPath>
-      <itemPath>SaveSgl.h</itemPath>
-      <itemPath>Serv.h</itemPath>
-      <itemPath>Set.h</itemPath>
-      <itemPath>SingleObjective.h</itemPath>
-      <itemPath>Solution.h</itemPath>
-      <itemPath>Stream.h</itemPath>
-      <itemPath>StreamAdapter.h</itemPath>
-      <itemPath>StreamPrinter.h</itemPath>
-      <itemPath>StreamPrinterImpl.h</itemPath>
-      <itemPath>StreamProgress.h</itemPath>
-      <itemPath>StreamProgressImpl.h</itemPath>
-      <itemPath>UniformDistribution.h</itemPath>
-      <itemPath>WPCodification.h</itemPath>
-      <itemPath>WPObjective.h</itemPath>
-      <itemPath>WPOperator.h</itemPath>
-      <itemPath>WPProblem.h</itemPath>
-      <itemPath>WinNeeds.h</itemPath>
-      <itemPath>WinParams.h</itemPath>
-      <itemPath>WinServ.h</itemPath>
-      <itemPath>WinServices.h</itemPath>
-      <itemPath>aRealMultiObj.h</itemPath>
-      <itemPath>aRealSingleObj.h</itemPath>
-      <itemPath>aStop.h</itemPath>
-      <itemPath>cReal.h</itemPath>
-      <itemPath>dFactory.h</itemPath>
-      <itemPath>dNeed.h</itemPath>
-      <itemPath>dService.h</itemPath>
-      <itemPath>dVertex.h</itemPath>
-      <itemPath>fProblem.h</itemPath>
-      <itemPath>fRealOperator.h</itemPath>
-      <itemPath>fRun.h</itemPath>
-      <itemPath>iFunction.h</itemPath>
-      <itemPath>iStopCustom.h</itemPath>
-      <itemPath>iStopTime.h</itemPath>
-      <itemPath>nEvaluations.h</itemPath>
-      <itemPath>oCrossover.h</itemPath>
-      <itemPath>oInitializer.h</itemPath>
-      <itemPath>oLocalMove.h</itemPath>
-      <itemPath>oMutation.h</itemPath>
-      <itemPath>pIteration.h</itemPath>
-      <itemPath>pRealMultiObjProblem.h</itemPath>
-      <itemPath>pRealSingleObjProblem.h</itemPath>
-      <itemPath>uException.h</itemPath>
-      <itemPath>uRandom.h</itemPath>
-      <itemPath>uUtil.h</itemPath>
+      <logicalFolder name="f1" displayName="ProOF" projectFiles="true">
+        <itemPath>Best.h</itemPath>
+        <itemPath>BestPareto.h</itemPath>
+        <itemPath>BestSol.h</itemPath>
+        <itemPath>BoundDbl.h</itemPath>
+        <itemPath>BoundInt.h</itemPath>
+        <itemPath>Codification.h</itemPath>
+        <itemPath>ComDefines.h</itemPath>
+        <itemPath>Fact.h</itemPath>
+        <itemPath>Factory.h</itemPath>
+        <itemPath>Instance.h</itemPath>
+        <itemPath>LinkerNodes.h</itemPath>
+        <itemPath>LinkerParameterAbstract.h</itemPath>
+        <itemPath>LinkerParameters.h</itemPath>
+        <itemPath>LinkerResults.h</itemPath>
+        <itemPath>LinkerResultsImpl.h</itemPath>
+        <itemPath>LinkerValidations.h</itemPath>
+        <itemPath>LocalMove.h</itemPath>
+        <itemPath>MetaHeuristic.h</itemPath>
+        <itemPath>Model.h</itemPath>
+        <itemPath>MultiObjective.h</itemPath>
+        <itemPath>MultiProblem.h</itemPath>
+        <itemPath>Node.h</itemPath>
+        <itemPath>Node2.h</itemPath>
+        <itemPath>NodeEnd.h</itemPath>
+        <itemPath>NodeFactory.h</itemPath>
+        <itemPath>NodeParameter.h</itemPath>
+        <itemPath>NodeSingle.h</itemPath>
+        <itemPath>Objective.h</itemPath>
+        <itemPath>Operator.h</itemPath>
+        <itemPath>Problem.h</itemPath>
+        <itemPath>RgxRule.h</itemPath>
+        <itemPath>Run.h</itemPath>
+        <itemPath>Runner.h</itemPath>
+        <itemPath>SavePof.h</itemPath>
+        <itemPath>SaveSgl.h</itemPath>
+        <itemPath>Serv.h</itemPath>
+        <itemPath>Set.h</itemPath>
+        <itemPath>SingleObjective.h</itemPath>
+        <itemPath>Solution.h</itemPath>
+        <itemPath>Stream.h</itemPath>
+        <itemPath>StreamAdapter.h</itemPath>
+        <itemPath>StreamPrinter.h</itemPath>
+        <itemPath>StreamPrinterImpl.h</itemPath>
+        <itemPath>StreamProgress.h</itemPath>
+        <itemPath>StreamProgressImpl.h</itemPath>
+        <itemPath>WinNeeds.h</itemPath>
+        <itemPath>WinParams.h</itemPath>
+        <itemPath>WinServ.h</itemPath>
+        <itemPath>WinServices.h</itemPath>
+        <itemPath>aRealMultiObj.h</itemPath>
+        <itemPath>aRealSingleObj.h</itemPath>
+        <itemPath>aStop.h</itemPath>
+        <itemPath>cReal.h</itemPath>
+        <itemPath>dFactory.h</itemPath>
+        <itemPath>dNeed.h</itemPath>
+        <itemPath>dService.h</itemPath>
+        <itemPath>dVertex.h</itemPath>
+        <itemPath>fProblem.h</itemPath>
+        <itemPath>fRealOperator.h</itemPath>
+        <itemPath>fRun.h</itemPath>
+        <itemPath>iFunction.h</itemPath>
+        <itemPath>iStopCustom.h</itemPath>
+        <itemPath>iStopTime.h</itemPath>
+        <itemPath>nEvaluations.h</itemPath>
+        <itemPath>oCrossover.h</itemPath>
+        <itemPath>oInitializer.h</itemPath>
+        <itemPath>oLocalMove.h</itemPath>
+        <itemPath>oMutation.h</itemPath>
+        <itemPath>pIteration.h</itemPath>
+        <itemPath>pRealMultiObjProblem.h</itemPath>
+        <itemPath>pRealSingleObjProblem.h</itemPath>
+        <itemPath>uException.h</itemPath>
+        <itemPath>uRandom.h</itemPath>
+        <itemPath>uUtil.h</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="f1" displayName="Problems" projectFiles="true" kind="ROOT">
       <logicalFolder name="f1" displayName="ACK" projectFiles="true" kind="ROOT">
@@ -183,117 +150,189 @@
       </logicalFolder>
       <logicalFolder name="f6" displayName="GP" projectFiles="true" kind="ROOT">
         <itemPath>GPCodification.cpp</itemPath>
+        <itemPath>GPCodification.h</itemPath>
         <itemPath>GPObjective.cpp</itemPath>
+        <itemPath>GPObjective.h</itemPath>
         <itemPath>GPOperator.cpp</itemPath>
+        <itemPath>GPOperator.h</itemPath>
         <itemPath>GPProblem.cpp</itemPath>
+        <itemPath>GPProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="GRP" projectFiles="true" kind="ROOT">
+        <itemPath>GRPCodification.cpp</itemPath>
+        <itemPath>GRPCodification.h</itemPath>
+        <itemPath>GRPObjective.cpp</itemPath>
+        <itemPath>GRPObjective.h</itemPath>
+        <itemPath>GRPOperator.cpp</itemPath>
+        <itemPath>GRPOperator.h</itemPath>
+        <itemPath>GRPProblem.cpp</itemPath>
+        <itemPath>GRPProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="H6" projectFiles="true" kind="ROOT">
+        <itemPath>H6Codification.cpp</itemPath>
+        <itemPath>H6Codification.h</itemPath>
+        <itemPath>H6Objective.cpp</itemPath>
+        <itemPath>H6Objective.h</itemPath>
+        <itemPath>H6Operator.cpp</itemPath>
+        <itemPath>H6Operator.h</itemPath>
+        <itemPath>H6Problem.cpp</itemPath>
+        <itemPath>H6Problem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f9" displayName="HSK" projectFiles="true" kind="ROOT">
+        <itemPath>HSKCodification.cpp</itemPath>
+        <itemPath>HSKCodification.h</itemPath>
+        <itemPath>HSKObjective.cpp</itemPath>
+        <itemPath>HSKObjective.h</itemPath>
+        <itemPath>HSKOperator.cpp</itemPath>
+        <itemPath>HSKOperator.h</itemPath>
+        <itemPath>HSKProblem.cpp</itemPath>
+        <itemPath>HSKProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="HV" projectFiles="true" kind="ROOT">
+        <itemPath>HVCodification.cpp</itemPath>
+        <itemPath>HVCodification.h</itemPath>
+        <itemPath>HVObjective.cpp</itemPath>
+        <itemPath>HVObjective.h</itemPath>
+        <itemPath>HVOperator.cpp</itemPath>
+        <itemPath>HVOperator.h</itemPath>
+        <itemPath>HVProblem.cpp</itemPath>
+        <itemPath>HVProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f11" displayName="KL" projectFiles="true" kind="ROOT">
+        <itemPath>KLCodification.cpp</itemPath>
+        <itemPath>KLCodification.h</itemPath>
+        <itemPath>KLObjective.cpp</itemPath>
+        <itemPath>KLObjective.h</itemPath>
+        <itemPath>KLOperator.cpp</itemPath>
+        <itemPath>KLOperator.h</itemPath>
+        <itemPath>KLProblem.cpp</itemPath>
+        <itemPath>KLProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f12" displayName="LM2" projectFiles="true" kind="ROOT">
+        <itemPath>LM2Codification.cpp</itemPath>
+        <itemPath>LM2Codification.h</itemPath>
+        <itemPath>LM2Objective.cpp</itemPath>
+        <itemPath>LM2Objective.h</itemPath>
+        <itemPath>LM2Operator.cpp</itemPath>
+        <itemPath>LM2Operator.h</itemPath>
+        <itemPath>LM2Problem.cpp</itemPath>
+        <itemPath>LM2Problem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f13" displayName="MCP" projectFiles="true" kind="ROOT">
+        <itemPath>MCPCodification.cpp</itemPath>
+        <itemPath>MCPCodification.h</itemPath>
+        <itemPath>MCPObjective.cpp</itemPath>
+        <itemPath>MCPObjective.h</itemPath>
+        <itemPath>MCPOperator.cpp</itemPath>
+        <itemPath>MCPOperator.h</itemPath>
+        <itemPath>MCPProblem.cpp</itemPath>
+        <itemPath>MCPProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f14" displayName="MR" projectFiles="true" kind="ROOT">
+        <itemPath>MRCodification.cpp</itemPath>
+        <itemPath>MRCodification.h</itemPath>
+        <itemPath>MRObjective.cpp</itemPath>
+        <itemPath>MRObjective.h</itemPath>
+        <itemPath>MROperator.cpp</itemPath>
+        <itemPath>MROperator.h</itemPath>
+        <itemPath>MRProblem.cpp</itemPath>
+        <itemPath>MRProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f15" displayName="SIN" projectFiles="true" kind="ROOT">
+        <itemPath>SINCodification.cpp</itemPath>
+        <itemPath>SINCodification.h</itemPath>
+        <itemPath>SINObjective.cpp</itemPath>
+        <itemPath>SINObjective.h</itemPath>
+        <itemPath>SINOperator.cpp</itemPath>
+        <itemPath>SINOperator.h</itemPath>
+        <itemPath>SINProblem.cpp</itemPath>
+        <itemPath>SINProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f16" displayName="SINU20" projectFiles="true" kind="ROOT">
+        <itemPath>SINU20Codification.cpp</itemPath>
+        <itemPath>SINU20Codification.h</itemPath>
+        <itemPath>SINU20Objective.cpp</itemPath>
+        <itemPath>SINU20Objective.h</itemPath>
+        <itemPath>SINU20Operator.cpp</itemPath>
+        <itemPath>SINU20Operator.h</itemPath>
+        <itemPath>SINU20Problem.cpp</itemPath>
+        <itemPath>SINU20Problem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f17" displayName="WP" projectFiles="true" kind="ROOT">
+        <itemPath>WPCodification.cpp</itemPath>
+        <itemPath>WPCodification.h</itemPath>
+        <itemPath>WPObjective.cpp</itemPath>
+        <itemPath>WPObjective.h</itemPath>
+        <itemPath>WPOperator.cpp</itemPath>
+        <itemPath>WPOperator.h</itemPath>
+        <itemPath>WPProblem.cpp</itemPath>
+        <itemPath>WPProblem.h</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <itemPath>Paper.pdf</itemPath>
+      <itemPath>ProOFClient.jar</itemPath>
+      <itemPath>Tutorial.pdf</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>Best.cpp</itemPath>
-      <itemPath>BestPareto.cpp</itemPath>
-      <itemPath>BestSol.cpp</itemPath>
-      <itemPath>BoundDbl.cpp</itemPath>
-      <itemPath>BoundInt.cpp</itemPath>
-      <itemPath>Codification.cpp</itemPath>
-      <itemPath>ComDefines.cpp</itemPath>
-      <itemPath>Fact.cpp</itemPath>
-      <itemPath>GRPCodification.cpp</itemPath>
-      <itemPath>GRPObjective.cpp</itemPath>
-      <itemPath>GRPOperator.cpp</itemPath>
-      <itemPath>GRPProblem.cpp</itemPath>
-      <itemPath>GaussianDistribution.cpp</itemPath>
-      <itemPath>GeneticAlgorithm.cpp</itemPath>
-      <itemPath>H6Codification.cpp</itemPath>
-      <itemPath>H6Objective.cpp</itemPath>
-      <itemPath>H6Operator.cpp</itemPath>
-      <itemPath>H6Problem.cpp</itemPath>
-      <itemPath>HSKCodification.cpp</itemPath>
-      <itemPath>HSKObjective.cpp</itemPath>
-      <itemPath>HSKOperator.cpp</itemPath>
-      <itemPath>HSKProblem.cpp</itemPath>
-      <itemPath>HVCodification.cpp</itemPath>
-      <itemPath>HVObjective.cpp</itemPath>
-      <itemPath>HVOperator.cpp</itemPath>
-      <itemPath>HVProblem.cpp</itemPath>
-      <itemPath>Instance.cpp</itemPath>
-      <itemPath>KLCodification.cpp</itemPath>
-      <itemPath>KLObjective.cpp</itemPath>
-      <itemPath>KLOperator.cpp</itemPath>
-      <itemPath>KLProblem.cpp</itemPath>
-      <itemPath>LM2Codification.cpp</itemPath>
-      <itemPath>LM2Objective.cpp</itemPath>
-      <itemPath>LM2Operator.cpp</itemPath>
-      <itemPath>LM2Problem.cpp</itemPath>
-      <itemPath>LinkerNodes.cpp</itemPath>
-      <itemPath>LinkerParameterAbstract.cpp</itemPath>
-      <itemPath>LinkerResultsImpl.cpp</itemPath>
-      <itemPath>LocalMove.cpp</itemPath>
-      <itemPath>MCPCodification.cpp</itemPath>
-      <itemPath>MCPObjective.cpp</itemPath>
-      <itemPath>MCPOperator.cpp</itemPath>
-      <itemPath>MCPProblem.cpp</itemPath>
-      <itemPath>MRCodification.cpp</itemPath>
-      <itemPath>MRObjective.cpp</itemPath>
-      <itemPath>MROperator.cpp</itemPath>
-      <itemPath>MRProblem.cpp</itemPath>
-      <itemPath>Model.cpp</itemPath>
-      <itemPath>MultiObjective.cpp</itemPath>
-      <itemPath>MultiProblem.cpp</itemPath>
-      <itemPath>Node2.cpp</itemPath>
-      <itemPath>Objective.cpp</itemPath>
-      <itemPath>Problem.cpp</itemPath>
-      <itemPath>RgxRule.cpp</itemPath>
-      <itemPath>Runner.cpp</itemPath>
-      <itemPath>SINCodification.cpp</itemPath>
-      <itemPath>SINObjective.cpp</itemPath>
-      <itemPath>SINOperator.cpp</itemPath>
-      <itemPath>SINProblem.cpp</itemPath>
-      <itemPath>SINU20Codification.cpp</itemPath>
-      <itemPath>SINU20Objective.cpp</itemPath>
-      <itemPath>SINU20Operator.cpp</itemPath>
-      <itemPath>SINU20Problem.cpp</itemPath>
-      <itemPath>Serv.cpp</itemPath>
-      <itemPath>Set.cpp</itemPath>
-      <itemPath>SingleObjective.cpp</itemPath>
-      <itemPath>Solution.cpp</itemPath>
-      <itemPath>StreamAdapter.cpp</itemPath>
-      <itemPath>StreamPrinterImpl.cpp</itemPath>
-      <itemPath>StreamProgressImpl.cpp</itemPath>
-      <itemPath>UniformDistribution.cpp</itemPath>
-      <itemPath>WPCodification.cpp</itemPath>
-      <itemPath>WPObjective.cpp</itemPath>
-      <itemPath>WPOperator.cpp</itemPath>
-      <itemPath>WPProblem.cpp</itemPath>
-      <itemPath>WinNeeds.cpp</itemPath>
-      <itemPath>WinParams.cpp</itemPath>
-      <itemPath>WinServ.cpp</itemPath>
-      <itemPath>WinServices.cpp</itemPath>
-      <itemPath>aStop.cpp</itemPath>
-      <itemPath>cReal.cpp</itemPath>
-      <itemPath>dVertex.cpp</itemPath>
-      <itemPath>fProblem.cpp</itemPath>
-      <itemPath>fRealOperator.cpp</itemPath>
-      <itemPath>fRun.cpp</itemPath>
-      <itemPath>iStopCustom.cpp</itemPath>
-      <itemPath>iStopTime.cpp</itemPath>
+      <logicalFolder name="f1" displayName="ProOF" projectFiles="true">
+        <itemPath>Best.cpp</itemPath>
+        <itemPath>BestPareto.cpp</itemPath>
+        <itemPath>BestSol.cpp</itemPath>
+        <itemPath>BoundDbl.cpp</itemPath>
+        <itemPath>BoundInt.cpp</itemPath>
+        <itemPath>Codification.cpp</itemPath>
+        <itemPath>ComDefines.cpp</itemPath>
+        <itemPath>Fact.cpp</itemPath>
+        <itemPath>Instance.cpp</itemPath>
+        <itemPath>LinkerNodes.cpp</itemPath>
+        <itemPath>LinkerParameterAbstract.cpp</itemPath>
+        <itemPath>LinkerResultsImpl.cpp</itemPath>
+        <itemPath>LocalMove.cpp</itemPath>
+        <itemPath>Model.cpp</itemPath>
+        <itemPath>MultiObjective.cpp</itemPath>
+        <itemPath>MultiProblem.cpp</itemPath>
+        <itemPath>Node2.cpp</itemPath>
+        <itemPath>Objective.cpp</itemPath>
+        <itemPath>Problem.cpp</itemPath>
+        <itemPath>RgxRule.cpp</itemPath>
+        <itemPath>Runner.cpp</itemPath>
+        <itemPath>Serv.cpp</itemPath>
+        <itemPath>Set.cpp</itemPath>
+        <itemPath>SingleObjective.cpp</itemPath>
+        <itemPath>Solution.cpp</itemPath>
+        <itemPath>StreamAdapter.cpp</itemPath>
+        <itemPath>StreamPrinterImpl.cpp</itemPath>
+        <itemPath>StreamProgressImpl.cpp</itemPath>
+        <itemPath>WinNeeds.cpp</itemPath>
+        <itemPath>WinParams.cpp</itemPath>
+        <itemPath>WinServ.cpp</itemPath>
+        <itemPath>WinServices.cpp</itemPath>
+        <itemPath>aStop.cpp</itemPath>
+        <itemPath>cReal.cpp</itemPath>
+        <itemPath>dVertex.cpp</itemPath>
+        <itemPath>fProblem.cpp</itemPath>
+        <itemPath>fRealOperator.cpp</itemPath>
+        <itemPath>fRun.cpp</itemPath>
+        <itemPath>iStopCustom.cpp</itemPath>
+        <itemPath>iStopTime.cpp</itemPath>
+        <itemPath>nEvaluations.cpp</itemPath>
+        <itemPath>oCrossover.cpp</itemPath>
+        <itemPath>oInitializer.cpp</itemPath>
+        <itemPath>oLocalMove.cpp</itemPath>
+        <itemPath>oMutation.cpp</itemPath>
+        <itemPath>pIteration.cpp</itemPath>
+        <itemPath>pRealMultiObjProblem.cpp</itemPath>
+        <itemPath>pRealSingleObjProblem.cpp</itemPath>
+        <itemPath>uException.cpp</itemPath>
+        <itemPath>uRandom.cpp</itemPath>
+        <itemPath>uUtil.cpp</itemPath>
+      </logicalFolder>
       <itemPath>main.cpp</itemPath>
-      <itemPath>nEvaluations.cpp</itemPath>
-      <itemPath>oCrossover.cpp</itemPath>
-      <itemPath>oInitializer.cpp</itemPath>
-      <itemPath>oLocalMove.cpp</itemPath>
-      <itemPath>oMutation.cpp</itemPath>
-      <itemPath>pIteration.cpp</itemPath>
-      <itemPath>pRealMultiObjProblem.cpp</itemPath>
-      <itemPath>pRealSingleObjProblem.cpp</itemPath>
-      <itemPath>uException.cpp</itemPath>
-      <itemPath>uRandom.cpp</itemPath>
-      <itemPath>uUtil.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -644,6 +683,10 @@
       </item>
       <item path="Operator.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Paper.pdf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProOFClient.jar" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Problem.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Problem.h" ex="false" tool="3" flavor2="0">
@@ -727,6 +770,8 @@
       <item path="StreamProgressImpl.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="StreamProgressImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tutorial.pdf" ex="false" tool="3" flavor2="0">
       </item>
       <item path="UniformDistribution.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1202,6 +1247,10 @@
       </item>
       <item path="Operator.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Paper.pdf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProOFClient.jar" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Problem.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Problem.h" ex="false" tool="3" flavor2="0">
@@ -1285,6 +1334,8 @@
       <item path="StreamProgressImpl.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="StreamProgressImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tutorial.pdf" ex="false" tool="3" flavor2="0">
       </item>
       <item path="UniformDistribution.cpp" ex="false" tool="1" flavor2="0">
       </item>
