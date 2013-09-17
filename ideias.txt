@@ -1,0 +1,7 @@
+para crossover:
+child[i] = parent1[i] + r*(parent2[i] - parent1[i])
+onde r pertence a U(0,1) (distribuição uniforme)
+
+para mutação:
+child[i] = N(parent[i], sigma), se random entre 0 e 1 for maior que 25%
+            mantém, cc.

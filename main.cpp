@@ -59,7 +59,8 @@ int main(int argc, char** argv) {
 
     //##### para testes da execução descomente a linha abaixo ######
     run("E:\\0Aula\\ProOFClient\\work_space\\job\\finished\\utcz", "D:\\Dropbox\\ProOF\\ProOFClient\\work_space\\input");
-
+    //run("/home/lcrespilho/NetBeansProjects/SistemasEvolutivos_TP1/work_space/job/finished/pmim", "/home/lcrespilho/NetBeansProjects/SistemasEvolutivos_TP1/work_space/input");
+    
     return 0;
 }
 
