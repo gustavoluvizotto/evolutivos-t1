@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Best.h</itemPath>
+      <itemPath>BestPareto.h</itemPath>
+      <itemPath>BestSol.h</itemPath>
+      <itemPath>BoundDbl.h</itemPath>
+      <itemPath>BoundInt.h</itemPath>
+      <itemPath>Codification.h</itemPath>
+      <itemPath>ComDefines.h</itemPath>
+      <itemPath>Fact.h</itemPath>
+      <itemPath>Factory.h</itemPath>
+      <itemPath>GPCodification.h</itemPath>
+      <itemPath>GPObjective.h</itemPath>
+      <itemPath>GPOperator.h</itemPath>
+      <itemPath>GPProblem.h</itemPath>
+      <itemPath>GRPCodification.h</itemPath>
+      <itemPath>GRPObjective.h</itemPath>
+      <itemPath>GRPOperator.h</itemPath>
+      <itemPath>GRPProblem.h</itemPath>
+      <itemPath>GaussianDistribution.h</itemPath>
+      <itemPath>GeneticAlgorithm.h</itemPath>
+      <itemPath>H6Codification.h</itemPath>
+      <itemPath>H6Objective.h</itemPath>
+      <itemPath>H6Operator.h</itemPath>
+      <itemPath>H6Problem.h</itemPath>
+      <itemPath>HSKCodification.h</itemPath>
+      <itemPath>HSKObjective.h</itemPath>
+      <itemPath>HSKOperator.h</itemPath>
+      <itemPath>HSKProblem.h</itemPath>
+      <itemPath>HVCodification.h</itemPath>
+      <itemPath>HVObjective.h</itemPath>
+      <itemPath>HVOperator.h</itemPath>
+      <itemPath>HVProblem.h</itemPath>
+      <itemPath>Instance.h</itemPath>
+      <itemPath>KLCodification.h</itemPath>
+      <itemPath>KLObjective.h</itemPath>
+      <itemPath>KLOperator.h</itemPath>
+      <itemPath>KLProblem.h</itemPath>
+      <itemPath>LM2Codification.h</itemPath>
+      <itemPath>LM2Objective.h</itemPath>
+      <itemPath>LM2Operator.h</itemPath>
+      <itemPath>LM2Problem.h</itemPath>
+      <itemPath>LinkerNodes.h</itemPath>
+      <itemPath>LinkerParameterAbstract.h</itemPath>
+      <itemPath>LinkerParameters.h</itemPath>
+      <itemPath>LinkerResults.h</itemPath>
+      <itemPath>LinkerResultsImpl.h</itemPath>
+      <itemPath>LinkerValidations.h</itemPath>
+      <itemPath>LocalMove.h</itemPath>
+      <itemPath>MCPCodification.h</itemPath>
+      <itemPath>MCPObjective.h</itemPath>
+      <itemPath>MCPOperator.h</itemPath>
+      <itemPath>MCPProblem.h</itemPath>
+      <itemPath>MRCodification.h</itemPath>
+      <itemPath>MRObjective.h</itemPath>
+      <itemPath>MROperator.h</itemPath>
+      <itemPath>MRProblem.h</itemPath>
+      <itemPath>MetaHeuristic.h</itemPath>
+      <itemPath>Model.h</itemPath>
+      <itemPath>MultiObjective.h</itemPath>
+      <itemPath>MultiProblem.h</itemPath>
+      <itemPath>Node.h</itemPath>
+      <itemPath>Node2.h</itemPath>
+      <itemPath>NodeEnd.h</itemPath>
+      <itemPath>NodeFactory.h</itemPath>
+      <itemPath>NodeParameter.h</itemPath>
+      <itemPath>NodeSingle.h</itemPath>
+      <itemPath>Objective.h</itemPath>
+      <itemPath>Operator.h</itemPath>
+      <itemPath>Problem.h</itemPath>
+      <itemPath>RgxRule.h</itemPath>
+      <itemPath>Run.h</itemPath>
+      <itemPath>Runner.h</itemPath>
+      <itemPath>SINCodification.h</itemPath>
+      <itemPath>SINObjective.h</itemPath>
+      <itemPath>SINOperator.h</itemPath>
+      <itemPath>SINProblem.h</itemPath>
+      <itemPath>SINU20Codification.h</itemPath>
+      <itemPath>SINU20Objective.h</itemPath>
+      <itemPath>SINU20Operator.h</itemPath>
+      <itemPath>SINU20Problem.h</itemPath>
+      <itemPath>SavePof.h</itemPath>
+      <itemPath>SaveSgl.h</itemPath>
+      <itemPath>Serv.h</itemPath>
+      <itemPath>Set.h</itemPath>
+      <itemPath>SingleObjective.h</itemPath>
+      <itemPath>Solution.h</itemPath>
+      <itemPath>Stream.h</itemPath>
+      <itemPath>StreamAdapter.h</itemPath>
+      <itemPath>StreamPrinter.h</itemPath>
+      <itemPath>StreamPrinterImpl.h</itemPath>
+      <itemPath>StreamProgress.h</itemPath>
+      <itemPath>StreamProgressImpl.h</itemPath>
+      <itemPath>UniformDistribution.h</itemPath>
+      <itemPath>WPCodification.h</itemPath>
+      <itemPath>WPObjective.h</itemPath>
+      <itemPath>WPOperator.h</itemPath>
+      <itemPath>WPProblem.h</itemPath>
+      <itemPath>WinNeeds.h</itemPath>
+      <itemPath>WinParams.h</itemPath>
+      <itemPath>WinServ.h</itemPath>
+      <itemPath>WinServices.h</itemPath>
+      <itemPath>aRealMultiObj.h</itemPath>
+      <itemPath>aRealSingleObj.h</itemPath>
+      <itemPath>aStop.h</itemPath>
+      <itemPath>cReal.h</itemPath>
+      <itemPath>dFactory.h</itemPath>
+      <itemPath>dNeed.h</itemPath>
+      <itemPath>dService.h</itemPath>
+      <itemPath>dVertex.h</itemPath>
+      <itemPath>fProblem.h</itemPath>
+      <itemPath>fRealOperator.h</itemPath>
+      <itemPath>fRun.h</itemPath>
+      <itemPath>iFunction.h</itemPath>
+      <itemPath>iStopCustom.h</itemPath>
+      <itemPath>iStopTime.h</itemPath>
+      <itemPath>nEvaluations.h</itemPath>
+      <itemPath>oCrossover.h</itemPath>
+      <itemPath>oInitializer.h</itemPath>
+      <itemPath>oLocalMove.h</itemPath>
+      <itemPath>oMutation.h</itemPath>
+      <itemPath>pIteration.h</itemPath>
+      <itemPath>pRealMultiObjProblem.h</itemPath>
+      <itemPath>pRealSingleObjProblem.h</itemPath>
+      <itemPath>uException.h</itemPath>
+      <itemPath>uRandom.h</itemPath>
+      <itemPath>uUtil.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="f1" displayName="Problems" projectFiles="true" kind="ROOT">
+      <logicalFolder name="f1" displayName="ACK" projectFiles="true" kind="ROOT">
+        <itemPath>ACKCodification.cpp</itemPath>
+        <itemPath>ACKCodification.h</itemPath>
+        <itemPath>ACKObjective.cpp</itemPath>
+        <itemPath>ACKObjective.h</itemPath>
+        <itemPath>ACKOperator.cpp</itemPath>
+        <itemPath>ACKOperator.h</itemPath>
+        <itemPath>ACKProblem.cpp</itemPath>
+        <itemPath>ACKProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="BR" projectFiles="true" kind="ROOT">
+        <itemPath>BRCodification.cpp</itemPath>
+        <itemPath>BRCodification.h</itemPath>
+        <itemPath>BRObjective.cpp</itemPath>
+        <itemPath>BRObjective.h</itemPath>
+        <itemPath>BROperator.cpp</itemPath>
+        <itemPath>BROperator.h</itemPath>
+        <itemPath>BRProblem.cpp</itemPath>
+        <itemPath>BRProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="CM" projectFiles="true" kind="ROOT">
+        <itemPath>CMCodification.cpp</itemPath>
+        <itemPath>CMCodification.h</itemPath>
+        <itemPath>CMObjective.cpp</itemPath>
+        <itemPath>CMObjective.h</itemPath>
+        <itemPath>CMOperator.cpp</itemPath>
+        <itemPath>CMOperator.h</itemPath>
+        <itemPath>CMProblem.cpp</itemPath>
+        <itemPath>CMProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="EXP" projectFiles="true" kind="ROOT">
+        <itemPath>EXPCodification.cpp</itemPath>
+        <itemPath>EXPCodification.h</itemPath>
+        <itemPath>EXPObjective.cpp</itemPath>
+        <itemPath>EXPObjective.h</itemPath>
+        <itemPath>EXPOperator.cpp</itemPath>
+        <itemPath>EXPOperator.h</itemPath>
+        <itemPath>EXPProblem.cpp</itemPath>
+        <itemPath>EXPProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="FUN" projectFiles="true" kind="ROOT">
+        <itemPath>FUNCodification.cpp</itemPath>
+        <itemPath>FUNCodification.h</itemPath>
+        <itemPath>FUNObjective.cpp</itemPath>
+        <itemPath>FUNObjective.h</itemPath>
+        <itemPath>FUNOperator.cpp</itemPath>
+        <itemPath>FUNOperator.h</itemPath>
+        <itemPath>FUNProblem.cpp</itemPath>
+        <itemPath>FUNProblem.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6" displayName="GP" projectFiles="true" kind="ROOT">
+        <itemPath>GPCodification.cpp</itemPath>
+        <itemPath>GPObjective.cpp</itemPath>
+        <itemPath>GPOperator.cpp</itemPath>
+        <itemPath>GPProblem.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Best.cpp</itemPath>
+      <itemPath>BestPareto.cpp</itemPath>
+      <itemPath>BestSol.cpp</itemPath>
+      <itemPath>BoundDbl.cpp</itemPath>
+      <itemPath>BoundInt.cpp</itemPath>
+      <itemPath>Codification.cpp</itemPath>
+      <itemPath>ComDefines.cpp</itemPath>
+      <itemPath>Fact.cpp</itemPath>
+      <itemPath>GRPCodification.cpp</itemPath>
+      <itemPath>GRPObjective.cpp</itemPath>
+      <itemPath>GRPOperator.cpp</itemPath>
+      <itemPath>GRPProblem.cpp</itemPath>
+      <itemPath>GaussianDistribution.cpp</itemPath>
+      <itemPath>GeneticAlgorithm.cpp</itemPath>
+      <itemPath>H6Codification.cpp</itemPath>
+      <itemPath>H6Objective.cpp</itemPath>
+      <itemPath>H6Operator.cpp</itemPath>
+      <itemPath>H6Problem.cpp</itemPath>
+      <itemPath>HSKCodification.cpp</itemPath>
+      <itemPath>HSKObjective.cpp</itemPath>
+      <itemPath>HSKOperator.cpp</itemPath>
+      <itemPath>HSKProblem.cpp</itemPath>
+      <itemPath>HVCodification.cpp</itemPath>
+      <itemPath>HVObjective.cpp</itemPath>
+      <itemPath>HVOperator.cpp</itemPath>
+      <itemPath>HVProblem.cpp</itemPath>
+      <itemPath>Instance.cpp</itemPath>
+      <itemPath>KLCodification.cpp</itemPath>
+      <itemPath>KLObjective.cpp</itemPath>
+      <itemPath>KLOperator.cpp</itemPath>
+      <itemPath>KLProblem.cpp</itemPath>
+      <itemPath>LM2Codification.cpp</itemPath>
+      <itemPath>LM2Objective.cpp</itemPath>
+      <itemPath>LM2Operator.cpp</itemPath>
+      <itemPath>LM2Problem.cpp</itemPath>
+      <itemPath>LinkerNodes.cpp</itemPath>
+      <itemPath>LinkerParameterAbstract.cpp</itemPath>
+      <itemPath>LinkerResultsImpl.cpp</itemPath>
+      <itemPath>LocalMove.cpp</itemPath>
+      <itemPath>MCPCodification.cpp</itemPath>
+      <itemPath>MCPObjective.cpp</itemPath>
+      <itemPath>MCPOperator.cpp</itemPath>
+      <itemPath>MCPProblem.cpp</itemPath>
+      <itemPath>MRCodification.cpp</itemPath>
+      <itemPath>MRObjective.cpp</itemPath>
+      <itemPath>MROperator.cpp</itemPath>
+      <itemPath>MRProblem.cpp</itemPath>
+      <itemPath>Model.cpp</itemPath>
+      <itemPath>MultiObjective.cpp</itemPath>
+      <itemPath>MultiProblem.cpp</itemPath>
+      <itemPath>Node2.cpp</itemPath>
+      <itemPath>Objective.cpp</itemPath>
+      <itemPath>Problem.cpp</itemPath>
+      <itemPath>RgxRule.cpp</itemPath>
+      <itemPath>Runner.cpp</itemPath>
+      <itemPath>SINCodification.cpp</itemPath>
+      <itemPath>SINObjective.cpp</itemPath>
+      <itemPath>SINOperator.cpp</itemPath>
+      <itemPath>SINProblem.cpp</itemPath>
+      <itemPath>SINU20Codification.cpp</itemPath>
+      <itemPath>SINU20Objective.cpp</itemPath>
+      <itemPath>SINU20Operator.cpp</itemPath>
+      <itemPath>SINU20Problem.cpp</itemPath>
+      <itemPath>Serv.cpp</itemPath>
+      <itemPath>Set.cpp</itemPath>
+      <itemPath>SingleObjective.cpp</itemPath>
+      <itemPath>Solution.cpp</itemPath>
+      <itemPath>StreamAdapter.cpp</itemPath>
+      <itemPath>StreamPrinterImpl.cpp</itemPath>
+      <itemPath>StreamProgressImpl.cpp</itemPath>
+      <itemPath>UniformDistribution.cpp</itemPath>
+      <itemPath>WPCodification.cpp</itemPath>
+      <itemPath>WPObjective.cpp</itemPath>
+      <itemPath>WPOperator.cpp</itemPath>
+      <itemPath>WPProblem.cpp</itemPath>
+      <itemPath>WinNeeds.cpp</itemPath>
+      <itemPath>WinParams.cpp</itemPath>
+      <itemPath>WinServ.cpp</itemPath>
+      <itemPath>WinServices.cpp</itemPath>
+      <itemPath>aStop.cpp</itemPath>
+      <itemPath>cReal.cpp</itemPath>
+      <itemPath>dVertex.cpp</itemPath>
+      <itemPath>fProblem.cpp</itemPath>
+      <itemPath>fRealOperator.cpp</itemPath>
+      <itemPath>fRun.cpp</itemPath>
+      <itemPath>iStopCustom.cpp</itemPath>
+      <itemPath>iStopTime.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>nEvaluations.cpp</itemPath>
+      <itemPath>oCrossover.cpp</itemPath>
+      <itemPath>oInitializer.cpp</itemPath>
+      <itemPath>oLocalMove.cpp</itemPath>
+      <itemPath>oMutation.cpp</itemPath>
+      <itemPath>pIteration.cpp</itemPath>
+      <itemPath>pRealMultiObjProblem.cpp</itemPath>
+      <itemPath>pRealSingleObjProblem.cpp</itemPath>
+      <itemPath>uException.cpp</itemPath>
+      <itemPath>uRandom.cpp</itemPath>
+      <itemPath>uUtil.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="ACKCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BROperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BROperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Best.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Best.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BestPareto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BestPareto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BestSol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BestSol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundDbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundDbl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundInt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ComDefines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ComDefines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Fact.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Fact.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Factory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GaussianDistribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GaussianDistribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GeneticAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GeneticAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerNodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerNodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerParameterAbstract.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerParameterAbstract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerParameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerResults.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerResultsImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerResultsImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerValidations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LocalMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LocalMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MROperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MROperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MetaHeuristic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeEnd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeSingle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RgxRule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RgxRule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Run.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Runner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Runner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SavePof.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SaveSgl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SingleObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SingleObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamAdapter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamAdapter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamPrinter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamPrinterImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamPrinterImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamProgress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamProgressImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamProgressImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UniformDistribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UniformDistribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinNeeds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinNeeds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinParams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinServ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinServ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinServices.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinServices.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aRealMultiObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aRealSingleObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aStop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aStop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cReal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cReal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dNeed.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dVertex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dVertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fRealOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fRealOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fRun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fRun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iFunction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iStopCustom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iStopCustom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iStopTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iStopTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nEvaluations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nEvaluations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oCrossover.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oCrossover.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oInitializer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oInitializer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oLocalMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oLocalMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oMutation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oMutation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pIteration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pIteration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pRealMultiObjProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pRealMultiObjProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pRealSingleObjProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pRealSingleObjProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uRandom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uRandom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>GNU|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ACKCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ACKProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ACKProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BROperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BROperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BRProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BRProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Best.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Best.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BestPareto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BestPareto.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BestSol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BestSol.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundDbl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundDbl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BoundInt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundInt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ComDefines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ComDefines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EXPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="EXPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FUNProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FUNProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Fact.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Fact.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Factory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GRPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GRPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GaussianDistribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GaussianDistribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GeneticAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GeneticAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H6Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="H6Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HSKProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HSKProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HVProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HVProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Instance.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Instance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KLProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KLProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LM2Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LM2Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerNodes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerNodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerParameterAbstract.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerParameterAbstract.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerParameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerResults.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerResultsImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LinkerResultsImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LinkerValidations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LocalMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LocalMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MCPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MCPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MROperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MROperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MRProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MRProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MetaHeuristic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MultiProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MultiProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeEnd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodeSingle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RgxRule.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RgxRule.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Run.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Runner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Runner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Codification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Codification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Objective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Objective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Operator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Operator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SINU20Problem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SINU20Problem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SavePof.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SaveSgl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SingleObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SingleObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamAdapter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamAdapter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamPrinter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamPrinterImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamPrinterImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamProgress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StreamProgressImpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StreamProgressImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UniformDistribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UniformDistribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPCodification.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPCodification.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPObjective.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPObjective.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WPProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WPProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinNeeds.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinNeeds.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinParams.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinParams.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinServ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinServ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WinServices.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WinServices.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aRealMultiObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aRealSingleObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="aStop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="aStop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cReal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cReal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dNeed.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dVertex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="dVertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fRealOperator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fRealOperator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fRun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fRun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iFunction.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iStopCustom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iStopCustom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iStopTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="iStopTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nEvaluations.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nEvaluations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oCrossover.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oCrossover.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oInitializer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oInitializer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oLocalMove.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oLocalMove.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="oMutation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="oMutation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pIteration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pIteration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pRealMultiObjProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pRealMultiObjProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pRealSingleObjProblem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pRealSingleObjProblem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uRandom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uRandom.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="uUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="uUtil.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
